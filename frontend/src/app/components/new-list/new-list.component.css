@@ -1,0 +1,55 @@
+.modal-box {
+  min-height: 50px;
+  width: 100%;
+  max-width: 580px;
+  background: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.add-list {
+  display: flex;
+  width: 100%; /* Take up the entire width */
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  flex: 1; /* Take up remaining space */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.input-box:focus {
+  outline: none; /* Optionally remove the default focus outline */
+  border-color: var(--green); /* Change border color when input is focused */
+}
+
+
+.add-button {
+  padding: 8px 16px;
+  background-color: var(--green);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: var(--dark-green);
+}
+
+.go-back-button {
+  padding: 4px 8px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline from link-like elements */
+}

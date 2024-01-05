@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+:root {
+  --family-sans-serif: "Nunito", sans-serif;
+}
+
+body {
+  font-family: var(--family-sans-serif);
+}
+
+/* Color Variables */
+:root {
+  --turquoise: #44ddd0;
+  --green: #27d7a1;
+  --light-green: #45f69e;
+  --light: #f5f3f3;
+  --dark-green: rgb(0, 100, 80);
+  --primary: var(--green);
+  --link: var(--light-green);
+}
+
+/* Control Variables */
+:root {
+  --control-border-width: 2px;
+  --input-border-color: transparent;
+  --input-shadow: none;
+}
+
+/* Background Gradient */
+html {
+  background: linear-gradient(to right top, var(--turquoise), var(--green));
+}
+
+html, body {
+  height: 100%;
+}
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
